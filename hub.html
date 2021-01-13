@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hubungi Kami</title>
+        <link rel="stylesheet" type="text/css"  href="hub.css">
+    </head>
+    <body>
+        <section>
+            <nav>
+                <div class="wrap">
+                    <div class="title"><b>JalanKuy!</b></div>
+                    <div class="tblmenubox">
+                        <div class="tblmenu"></div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="beranda.html">Beranda</a></li>
+                            <li><a href="destinasi.html">Destinasi</a></li>
+                            <li><a href="pesan.html">Pesan Tiket</a></li>
+                            <li><a href="hub.html">Tentang Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+            <script src="jquery.js"></script>
+            <script type="text/javascript">
+              $(".tblmenu").click(function () {
+              $(".menu").toggleClass("sh");
+              });
+            </script>
+        <div id="teks">
+            <h2>Layanan Kami</h2>
+            <hr>
+            <p>Liburan adalah kebutuhan bagi setiap orang. 
+            Persiapannya membutuhkan banyak pertimbangan mulai dari harga, 
+            tingkat kenyamanan, wahana menarik yang terdapat di dalamnya.
+            Oleh karena itu, JalanKuy! hadir untuk mempermudah anda dan keluarga merencanakan 
+            liburan yang sesuai dengan selera anda.
+            Jika anda memiliki saran atau kritik bisa hubungi kami lewat form yang 
+            tersedia dibawah.
+            </p>
+        </div>
+            <div class="backhub">
+                <h1> Hubungi Kami </h1>
+                <hr>
+                <form class="hub" method="POST" action="">
+                    <input type="text" name="username" placeholder="Username" class="bubu"/>
+                    <br />
+                    <input type="email" name="email" placeholder="Email" class="bubu"/>
+                    <br />
+                    <textarea name="pesan" placeholder="Pesan" placeholder="Pesan"></textarea>
+                    <input type="submit" value="Kirim" class="send"/>
+                </form>
+            </div>
+        </section>
+    </body>
+</html>

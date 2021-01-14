@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>JalanKuy!</title>
+        <link rel="stylesheet" type="text/css" href="beranda.css">
+    </head>
+    <body>
+        <section>
+            <video class="video" src="img/awan.mp4" autoplay loop muted></video>
+            <nav>
+                <div class="wrap">
+                    <div class="title"><b>JalanKuy!</b></div>
+                    <div class="tblmenubox">
+                        <div class="tblmenu"></div>
+                    </div>
+                    <div class="menu">
+                        <ul>
+                            <li><a href="#">Beranda</a></li>
+                            <li><a href="destinasi.html">Destinasi</a></li>
+                            <li><a href="pesan.html">Pesan Tiket</a></li>
+                            <li><a href="hub.html">Tentang Kami</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+            <div class="log">
+                <h2>Rencanakan Liburanmu!</h2>
+            </div>
+            <script src="jquery.js"></script>
+            <script type="text/javascript">
+              $(".tblmenu").click(function () {
+              $(".menu").toggleClass("sh");
+              });
+            </script>
+        </section>
+    </body>
+</html>
